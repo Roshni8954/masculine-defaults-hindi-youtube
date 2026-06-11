@@ -1,0 +1,6 @@
+pandas
+google-api-python-client
+tqdm
+youtube-transcript-api
+isodate
+yt-dlp
