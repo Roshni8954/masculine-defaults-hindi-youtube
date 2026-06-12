@@ -1,0 +1,8 @@
+api_key.txt
+__pycache__/
+*.pyc
+audio/
+cookies.txt
+youtube_cookies.txt
+data/cookies.txt
+data/youtube_cookies.txt
