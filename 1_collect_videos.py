@@ -12,7 +12,7 @@ import time
 import os
 import isodate
 
-API_KEY = "AIzaSyCumet7OqJMRHO3n45DURBfb5_VKiF4-vg"
+API_KEY = "Paste_your_youtube_API_key_here"
 
 VIDEOS_PER_CHANNEL = 85
 MIN_DURATION       = 600   # 10 minutes in seconds
