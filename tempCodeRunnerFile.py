@@ -1,0 +1,11 @@
+
+        "7",
+        "--ffmpeg-location",
+        str(ffmpeg_dir),
+        "--download-sections",
+        "*0-600",
+        "--no-playlist",
+        "--retries",
+        "3",
+        "--fragment-retries",
+        "3",

@@ -12,9 +12,10 @@ import time
 import os
 import isodate
 
-API_KEY = "Paste_your_youtube_API_key_here"
+with open("api_key.txt", "r") as f:
+    API_KEY = f.read().strip()
 
-VIDEOS_PER_CHANNEL = 85
+VIDEOS_PER_CHANNEL = 90
 MIN_DURATION       = 600   # 10 minutes in seconds
 OUTPUT_CSV         = "data/videos_raw.csv"
 
