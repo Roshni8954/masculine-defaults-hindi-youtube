@@ -14,8 +14,7 @@ AUDIO_DIR = BASE_DIR / "audio"
 RESULTS_DIR = BASE_DIR / "results"
 AUTH_REQUIRED_CSV = RESULTS_DIR / "auth_required_videos.csv"
 DEFAULT_FFMPEG_DIR = Path(
-    r"C:\Users\roshn\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin"
-)
+    r"C:\Users\roshn\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin")
 MAX_WORKERS = int(os.environ.get("YTDLP_MAX_WORKERS", "10"))
 MIN_DURATION = 600  # 10 minutes
 REQUEST_DELAY_SECONDS = float(os.environ.get("YTDLP_REQUEST_DELAY_SECONDS", "0"))
